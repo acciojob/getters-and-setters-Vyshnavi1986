@@ -21,7 +21,7 @@ class Student extends Person
 {
 	study(String name)
 	{
-		console.log(name+"is studying")
+		console.log(name+" is studying")
 	}
 }
 
@@ -29,10 +29,13 @@ class Teacher extends Person
 {
 	teach(String name)
 	{
-		console.log(name+"is teaching")
+		console.log(name+" is teaching")
 	}
 }
-
+const person = new Person("John", 25);
+const student = new Student("Alice", 22);
+student.study();
+teacher.teach();
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
