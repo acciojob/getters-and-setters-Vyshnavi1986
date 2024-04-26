@@ -37,9 +37,9 @@ student.study(); // Output: Alice is studying
 const teacher = new Teacher("Bob", 40);
 teacher.teach(); // Output: Bob is teaching
 // Do not change the code below this line
-//window.Person = Person;
-//window.Student = Student;
-//window.Teacher = Teacher;
+window.Person = Person;
+window.Student = Student;
+window.Teacher = Teacher;
 //student.study();
 // Example usage:
 
